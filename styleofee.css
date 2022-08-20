@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+   background-color:burlywood;
+}
+
+h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.front2:hover{
+  rotate: 20deg;
+}
+
+h1.front{
+  font-size: 80px;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.front2{
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.front3{
+  color: black;
+  position: relative;
+}
+
+
+.banner{
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+p{
+  font-family:'Courier New', Courier, monospace;
+}
+
+p:hover{
+  font-size: 18px;
+}
+
+ul{
+ color: burlywood;
+ float: left;
+}
+
+li{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.a{
+  background-color: rgb(41, 41, 41);
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.button{
+  background-color: white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(41, 41, 41);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  
+}
+
+.button:hover{
+  background-color: burlywood;
+  color: white;
+}
